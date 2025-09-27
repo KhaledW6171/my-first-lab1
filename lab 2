@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Example</title>
+    <style>
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial;
+        }
+        h1 {
+            color: darkblue;
+            text-align: center;
+        }
+        p {
+            color: #444;
+            font-size: 16px;
+        }
+        a {
+            color: red;
+        }
+        ul {
+            background: #ddd;
+            padding: 10px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 60%;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 5px;
+        }
+        img {
+            width: 150px;
+            border: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1>My HTML + CSS Page</h1>
+    <p>This is a simple example using CSS with HTML elements.</p>
+
+    <a href="https://example.com">Click here</a>
+
+    <h2>My List</h2>
+    <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Juice</li>
+    </ul>
+
+    <h2>Simple Table</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+        </tr>
+        <tr>
+            <td>Ali</td>
+            <td>20</td>
+        </tr>
+        <tr>
+            <td>Sara</td>
+            <td>22</td>
+        </tr>
+    </table>
+
+    <h2>Image</h2>
+    <img src="example.jpg" alt="Test Image">
+</body>
+</html>
